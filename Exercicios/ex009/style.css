@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(0, 68, 255, 0.459);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #00ffff;
+    font-weight: bolder;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    border: 3px solid rgb(0, 0, 0)   
+}
+div > p {
+    display: none;
+}
+div:hover > p{
+    display: block;
+    text-align: center;
+    background-color: brown;
+    color:black ;
+}
+div:hover {
+    color: rgb(252, 249, 255);
+}
+h2{
+    text-align: center;
+    background-color: #82ffff;
+}
+.basico {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-style: italic;
+}
+.basico:hover {
+    color: rgb(255, 255, 255);
+}
+.intermediario{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intermediario > p{
+    display: none;
+}
+.intermediario:hover{
+    color: antiquewhite;
+}
